@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+allprojects {
+    group = 'com.task'
+    version = 'v1'
+}
+
+subprojects {
+    apply plugin: 'java'
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        implementation('org.projectlombok:lombok:1.18.22')
+        annotationProcessor 'org.projectlombok:lombok:1.18.22'
+    }
+}
+
+project(':eureka') {
+}
+
+project(':gateway') {
+}
+
+project(':country-api') {
+}
+
+

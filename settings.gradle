@@ -1,0 +1,6 @@
+
+rootProject.name = 'task'
+include ('eureka')
+include ('gateway')
+include ('country-api')
+

@@ -56,8 +56,8 @@ public class SetupController {
 		Set<Role> sRoles = roles.stream().collect(Collectors.toSet());
 		
 		User user = new User();
-		user.setFirstName("CPTU ADMIN");
-		user.setLastName("CPTU ADMIN");
+		user.setFirstName("ADMIN");
+		user.setLastName("ADMIN");
 		user.setUsername("admin");
 		user.setPassword(passwordEncoder.encode("admin"));
 		user.setRoles(sRoles);

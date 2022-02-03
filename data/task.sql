@@ -163,7 +163,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `approved`, `email`, `enabled`, `first_name`, `is_temporary_password`, `last_name`, `last_password_reset_date`, `password`, `password_recovery_code`, `phone`, `username`) VALUES
-(1, NULL, NULL, b'1', 'CPTU ADMIN', NULL, 'CPTU ADMIN', '2022-02-02 17:28:52', '$2a$10$aRBmrg9KEqW22jp9csVvruIO67EkcIB8Y/8m6ZGBJ/L0nfHryamZe', NULL, NULL, 'admin');
+(1, NULL, NULL, b'1', 'ADMIN', NULL, 'ADMIN', '2022-02-02 17:28:52', '$2a$10$aRBmrg9KEqW22jp9csVvruIO67EkcIB8Y/8m6ZGBJ/L0nfHryamZe', NULL, NULL, 'admin');
 
 -- --------------------------------------------------------
 

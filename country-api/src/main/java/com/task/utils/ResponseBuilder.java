@@ -13,8 +13,6 @@ public class ResponseBuilder implements Response {
 
     private Object data = null;
 
-    private Object meta = null;
-
     private String message = null;
 
     private Object errors = null;
@@ -64,7 +62,6 @@ public class ResponseBuilder implements Response {
             case DATA:
                 maps.put("status", status);
                 maps.put("data", data);
-                maps.put("meta", meta);
                 maps.put("message", message);
             case ERROR:
                 maps.put("status", status);
